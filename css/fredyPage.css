@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Pliant", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.header {
+    display: grid;
+    grid-area: header;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #233382;
+    color: white;
+    padding: 20px;
+}
+
+#header-links{
+    color: white;
+    text-decoration: none;
+    font-family: "Pliant", sans-serif;
+    font-weight: 500;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+/* This is styling for the main content area*/
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+/* This is styling for the column left*/
+.column-left {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 33%;
+    border: 1px solid #ccc;
+}
+
+/* This is styling for the column center*/
+.column-center {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 33%;
+    border: 1px solid #ccc;
+}
+
+/* This is styling for the column right*/
+.column-right {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 33%;
+    border: 1px solid #ccc;
+}
+
+/*This is styling for the headers and paragraphs of all the columns*/
+
+#content-title {
+    font-family: "Pliant", sans-serif;
+    font-weight: 600;
+    /*display: flex;
+    justify-content: center;*/
+    text-align: center;
+    font-size: 28px;
+}
+
+#content-paragraphs {
+    font-family: "Pliant", sans-serif;
+    font-weight: 400;
+    margin: 10px;
+    text-align: justify;
+}
+
+
